@@ -3,13 +3,12 @@
 const getApp = require('../index.js');
 const db = require('../../db/models');
 
-const HOST = process.env.HOST || '127.0.0.1';
 const PORT = process.env.PORT || 4000;
 
 db.sequelize.authenticate()
   .then(() => {
     console.log('Connection has been established successfully.');
-    getApp().listen(PORT, HOST, (err) => {
+    getApp().listen(PORT, (err) => {
       if (err) {
         console.log(`App crashed ${err}`);
         process.exit(1);

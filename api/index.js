@@ -3,8 +3,6 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const addRoutes = require('./routes/index.js');
 
-const port = process.env.PORT || 4000;
-
 module.exports = () => {
   const app = express();
   app.use(bodyParser.json());
