@@ -1,0 +1,38 @@
+{
+  "name": "amocrm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "api/bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node api/bin/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Evgen-Polyanskii/amoCRM.git"
+  },
+  "author": "Evgen-Polyanskii",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Evgen-Polyanskii/amoCRM/issues"
+  },
+  "homepage": "https://github.com/Evgen-Polyanskii/amoCRM#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "body-parser": "^1.20.0",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "lodash": "^4.17.21",
+    "nodemon": "^2.0.16",
+    "pg": "^8.7.3",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.20.0",
+    "yup": "^0.32.11"
+  },
+  "devDependencies": {
+    "eslint": "^8.16.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "sequelize-cli": "^6.4.1"
+  }
+}

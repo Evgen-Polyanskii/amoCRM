@@ -1,0 +1,11 @@
+HOST=127.0.0.1
+PORT=5000
+DB_USERNAME=evgen
+DB_PASSWORD=qwerty
+DB_NAME=amoCRM
+DB_HOSTNAME=127.0.0.1
+AMO_CLIENT_ID=2f5a49f1a-64674-47lb-8e62-bfrefre4ebdd79f
+WIDGET_URL=https://m4x1morlov.amocrm.ru
+AMO_CLIENT_SECRET=KCrXblhrt8lebDE2X7aohMCweqfr42WV6c5yYFGoPilMsP0rcsASpE3oZMsNxX
+URL=https://ecbd-185-238-196-19.eu.ngrok.io
+
