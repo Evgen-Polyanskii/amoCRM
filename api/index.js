@@ -10,9 +10,9 @@ module.exports = () => {
   app.use((req, res) => res.status(404).json({
     message: 'Page not found',
   }));
-  app.use((err, req, res, next) => {
-    console.log(err)
-    res.status(500).json({ /* eslint no-unused-vars: 0 */
+  app.use((err, req, res, next) => { /* eslint no-unused-vars: 0 */
+    console.log(err);
+    res.status(500).json({
       message: 'Something went wrong, please try again',
     });
   });

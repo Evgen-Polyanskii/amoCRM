@@ -12,6 +12,5 @@ start:
 start-dev:
 	heroku local -f Procfile.dev
 
-
 lint:
 	npx eslint .

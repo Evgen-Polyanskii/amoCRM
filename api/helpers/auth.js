@@ -35,7 +35,7 @@ const getAccess = async (code, client_id) => {
     code,
     grant_type: 'authorization_code',
     client_secret: process.env.AMO_CLIENT_SECRET,
-    redirect_uri: process.env.URL,
+    redirect_uri: `${process.env.URL}/authorization`,
   };
 
   await send(data);

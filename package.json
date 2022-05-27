@@ -5,7 +5,13 @@
   "main": "api/bin/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "build-db": "npx sequelize-cli db:create",
+    "db-migrate": "npx sequelize-cli db:migrate",
     "start": "node api/bin/server.js"
+  },
+  "engines": {
+    "node": "16.x",
+    "npm": "8.x"
   },
   "repository": {
     "type": "git",
