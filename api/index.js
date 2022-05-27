@@ -7,7 +7,6 @@ const port = process.env.PORT || 4000;
 
 module.exports = () => {
   const app = express();
-  app.set('port', (port));
   app.use(bodyParser.json());
   addRoutes(app);
   app.use((req, res) => res.status(404).json({
