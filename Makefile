@@ -1,3 +1,8 @@
+setup: prepare install
+
+prepare:
+	cp -n .envExample .env || true
+
 install:
 	npm ci
 
