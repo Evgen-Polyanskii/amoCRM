@@ -11,6 +11,7 @@ const app = getApp();
 db.sequelize.authenticate()
   .then(() => {
     console.log('Connection has been established successfully.');
+    console.log('POOOOOORT', app.get('port'))
     app.listen(app.get('port'), HOST, (err) => {
       if (err) {
         console.log(`App crashed ${err}`);
